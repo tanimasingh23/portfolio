@@ -1,0 +1,168 @@
+.display-3 {
+  font-size: 4.0rem;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.intro-para{
+  padding-left: 20px;
+  font-size: 1.2rem;
+  width:50%;
+}
+.image1{
+  float: right;
+  margin-right: 30px;
+  border-radius: 10rem;
+  padding-top: 20px;
+}
+
+@media (min-width: 314px) {
+	.display-3{
+		font-size: 3.0rem;
+		width: 100%;
+	}
+	.intro-para{
+		font-size: 1.2rem;
+		width: 100%;
+	}
+	.image1{
+		float: left;
+		max-height: 65%;
+	}
+	.jumbotron {
+    padding-bottom: 0rem;
+  }	
+	
+}
+
+@media (min-width: 576px) {
+	.display-3{
+		font-size: 4.0rem;
+		width: 100%;
+	}
+	.intro-para{
+		font-size: 1.3rem;
+		width: 100%;
+	}
+	.image1{
+		float: left;
+		max-height: 65%;
+	}
+	.jumbotron {
+    padding-bottom: 0rem;
+  	}	
+}
+
+@media (min-width: 768px) {
+	.display-3{
+		font-size: 4.5rem;
+	}
+	.intro-para{
+		font-size: 1.3rem;
+	}
+	.image1{
+		float: right;
+		max-height: 70%;
+	}
+	.jumbotron {
+    padding-bottom: 2rem;
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+	.display-3{
+		font-size: 4.8rem;
+		font-weight: 300;
+	}
+	.intro-para{
+		font-size: 1.3rem;
+	}
+	.image1{
+		float: right;
+		height: 100%;
+	}
+	.jumbotron {
+    padding-bottom: 2rem;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px){
+	.display-3{
+		font-size: 4.8rem;
+		font-weight: 350;
+	}
+	.intro-para{
+		font-size: 1.5rem;
+	}
+	.image1{
+		float: right;
+		height: 100%;
+	}
+	.jumbotron {
+    padding-bottom: 4rem;
+    height: 100%;
+  }
+
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+.site-footer {
+margin-top:75px;
+max-width:1400px;
+width:90%;
+margin:0 auto;
+padding-top:50px;
+padding-bottom: 50px;
+border-top:1px solid #e5e5e5;
+}
+
+.site-footer-left {
+float:left;
+font-size:18px;
+color:#ababab;
+padding-left: 10px;
+}
+
+.site-footer-copyright {
+font-style:italic;
+}
+
+.site-footer-social li {
+float:right;
+padding-left:4px;
+padding-right: 5px;
+padding-bottom: 40px;
+margin:0;
+list-style:none;
+display: inline-block;
+}
+
+.site-footer-social li a {
+width:45px;
+height:35px;
+padding-top:5px;
+padding-bottom: 0px;
+display:inline-block;
+border-radius: 0rem;
+background:#f5f5f5;
+text-align:center;
+color:#ababab;
+
+}
+
+.site-footer-social a:hover {
+color:#fff;
+}
+.site-footer-social .facebook:hover {
+background:#3b5998;
+}
+.site-footer-social .linkedin:hover {
+background:#0073B2;
+}
+
