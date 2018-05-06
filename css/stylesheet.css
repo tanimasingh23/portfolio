@@ -1,0 +1,307 @@
+h1{
+	font-family: 'Abril Fatface', cursive;
+}
+
+.tlt .word3 .char1 , .tlt .word3 .char3 ,.tlt .word3 .char5 , .tlt .word3 .char7
+{
+	color : #f4c700;
+}
+
+.active{
+	font-weight: 700;
+}
+
+div.card{
+
+	margin-top: 40px ;
+	margin-bottom:  40px ;
+	background-color: #EFEFEF;
+	box-shadow: 5px 5px 10px 4px #444;
+}
+
+.title{
+	font-size: 1.5em ;
+	font-weight: 700 ;
+}
+
+.repoCheck{
+	background-color: red ;
+	font-weight: 600 ;
+	position: absolute ;
+	top :25%;
+	right: 40%;
+	padding: 15px ;
+	border-radius: 25px;
+	opacity: 0;
+}
+
+hr.title-seperator {
+
+	border-color: white ;
+	border-bottom: 2px ;
+	width: 150px;
+	display: inline-block;
+	margin-right: auto;
+}
+
+hr.title-seperator:after{
+
+	display: inline-block;
+	position: relative;
+	color: white ;
+	content: '\22C6';
+	top : -15px;
+	padding: 0 10px ;
+}
+hr.title-seperator2:after{
+
+	background-color: #F07818;
+}
+
+hr.title-seperator1:after{
+
+	background-color: #FF5252 ;
+}
+
+hr.title-seperator3:after, hr.title-seperator3{
+
+	color: #2674AA ;
+	font-size: 1.1em;
+	content: '\2605';
+	border-color: #2674AA ;
+	border-width: 3px;
+	background-color: #bcdef3 ;
+}
+
+hr.title-seperator4:after , hr.title-seperator4{
+
+	color: #b65335 ;
+	font-size: 1.1em;
+	content: '\2605';
+	border-color: #b65335 ;
+	border-width: 3px;
+	background-color: #f3e5f3 ;
+}
+
+hr.title-seperator5:after , hr.title-seperator5{
+
+	color: #6D9348 ;
+	font-size: 1.1em;
+	content: '\2605';
+	border-color: #6D9348 ;
+	border-width: 3px;
+	background-color: #98BF64 ;
+}
+
+hr.title-seperator6:after , hr.title-seperator6{
+
+	color: #434b4b ;
+	font-size: 1.1em;
+	content: '\2605';
+	border-color: #434b4b ;
+	border-width: 3px;
+	background-color: #baf6e2 ;
+}
+
+
+#topButton{
+
+	font-weight: 700;
+	color: white ;
+}
+
+#topButton:hover {
+
+	background-color: black ;
+}
+
+div.card:hover img{
+
+	opacity : 0.4 ;
+
+}
+
+div.card:hover{
+
+	box-shadow: 2px 2px 5px 5px #2674AA ;
+}
+
+.card:hover .repoCheck{
+	opacity: 1;
+}
+
+
+#git-card{
+
+	padding: 15px ;
+	box-shadow: 2px 2px 5px 5px grey;
+	color: #365899;
+	font-size: 1.1em ;
+}
+
+#git-card span {
+
+	font-weight: 700;
+	font-size: 1.2em ;
+}
+
+.fa-github:hover{
+
+	box-shadow: 2px 2px 5px 5px grey;
+}
+
+.fa-github{
+	padding: 5px ;
+}
+
+a:hover{
+	text-decoration: none ;
+}
+
+.hideCard{
+
+	visibility: hidden;
+}
+
+.bounceInLeft , .bounceInRight, .fadeIn {
+
+	-webkit-animation-duration:  2s !important; 
+  	-moz-animation-duration:     2s !important; 
+  	-o-animation-duration:       2s !important; 
+  	animation-duration:          2s !important; 
+
+}
+
+#about-head{
+
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-size: 1.6em ;
+}
+#skills-head{
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-size: 1.6em ;
+	color: #234F1E;
+}
+#exp-head{
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-size: 1.6em ;
+	color: #434b4b;
+}
+
+#about{
+	padding-top: 50px; 
+}
+
+#about-content{
+
+	font-size: 1.1em ;
+}
+#skills-content{
+
+	font-size: 1.1em ;
+	color: #234F1E;
+}
+#exp-content{
+
+	font-size: 1.1em ;
+	color: #434b4b;
+}
+
+#myWork,#skills,#exp{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#skills .section-head{
+	color: #234F1E;
+}
+
+#myWork .section-head{
+
+	color : #2674aa;
+}
+
+.section-head{
+
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2.5em;
+}
+
+#left{
+	float: left;
+}
+#right{
+	float: right;
+}
+
+.links {
+
+	color : black;
+	padding: 12px ;
+	overflow-x: hidden;
+}
+
+.links:hover{
+	color : brown;
+}
+
+.contact{
+	padding: 50px ;
+	font-family: 'Rancho', cursive;
+	font-weight: 600;
+	font-size: 2.2em ;
+}
+
+@media screen and (max-width:991px){
+
+	.hide-991px{
+		display : none ;
+	}
+
+}
+
+@media screen and (max-width:450px){
+
+	h1 , .section-head , .contact{
+		font-size: 1.5em ;
+	}
+
+	#about-content, #skills-content, #exp-content , .card-text , #git-card div , .repoChecka{
+		font-size: 0.9em !important ;
+	}
+
+	#exp-head, #skills-head{
+		font-size: 1.2em !important;
+	}
+
+	.title{
+		font-size: 1.2em ;
+	}
+
+	.repoCheck{
+		padding : 10px !important;
+	}
+	#about,#myWork,#skills,#exp{
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+}
+
+@media screen and (max-width:360px){
+
+	.repoCheck{
+		right: 30%;
+		top: 25%;
+	}
+
+}	
+
+@media screen and (max-width: 767px) and (min-width : 450px){
+
+	h1 , .section-head{
+		font-size: 2em ;
+	}
+}
